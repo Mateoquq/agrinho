@@ -22,17 +22,17 @@ document.addEventListener('DOMContentLoaded', function () {
         this.classList.toggle('rotacionado')
     })
 
-aumentaFonte.addEventListener('click', function () {
-    if (tamanhoAtualFonte < 1.2) {
-        tamanhoAtualFonte += 0.1;
-        document.documentElement.style.fontSize = `${tamanhoAtualFonte}rem`;
-    }
-});
+    aumentaFonte.addEventListener('click', function () {
+        if (tamanhoAtualFonte < 1.2) {
+            tamanhoAtualFonte += 0.1;
+            document.documentElement.style.fontSize = `${tamanhoAtualFonte}rem`;
+        }
+    });
 
     diminuiFonte.addEventListener('click', function () {
-       if (tamanhoAtualFonte > 0.8) {
-        tamanhoAtualFonte -= 0.1;
-        document.documentElement.style.fontSize = `${tamanhoAtualFonte}rem`;
+        if (tamanhoAtualFonte > 0.8) {
+            tamanhoAtualFonte -= 0.1;
+            document.documentElement.style.fontSize = `${tamanhoAtualFonte}rem`;
         }
     });
 

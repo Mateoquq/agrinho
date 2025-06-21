@@ -1,8 +1,7 @@
-
-/* Menu de acessibilidade  inspirado na trilha: https://cursos.alura.com.br/course/acessibilidade-web-melhorando-experiencia-usuario */
+/* Menu de acessibilidade  inspirado na trilha: https://cursos.alura.com.br/course/acessibilidade-web-melhorando-experiencia-usuario */
 .menu-acessibilidade {
   position: fixed;
-  top: calc(var(--espacamento-grande) * 5);
+  top: calc(var(--espacamento-grande) * 4);
   right: var(--espacamento-grande);
   z-index: 100;
 }
@@ -50,7 +49,6 @@
   background: var(--cor-azul);
 }
 
-
 .btn-opcao {
   display: flex;
   align-items: center;
@@ -74,10 +72,10 @@
   display: inline-block;
 }
 
-/* --- Estilos para o modo Alto Contraste --- */
+/* Estilos para o modo Alto Contraste */
 
 .alto-contraste {
-  background-color: var(--cor-contraste-fundo);
+  background-color: var(--cor-contraste-fundo) !important; /* !important necessario para mudar fundo da pagina atribuicoes.html */
   color: var(--cor-contraste-branco);
   background-image: none;
 }
@@ -94,15 +92,17 @@
 }
 
 .alto-contraste .header,
-.alto-contraste .footer {
+.alto-contraste .footer,
+.alto-contraste .rodape {
   background-color: var(--cor-contraste-fundo);
   color: var(--cor-contraste-destaque);
   border-color: var(--cor-contraste-destaque);
+  border: none;
 }
 
+
 .alto-contraste a,
-.alto-contraste .header-link,
-.alto-contraste .btn-opcao {
+.alto-contraste .header-link {
   color: var(--cor-contraste-destaque);
 }
 
@@ -119,27 +119,55 @@
   color: var(--cor-contraste-branco);
 }
 
-.alto-contraste .btn-opcao {
-  background-color: var(--cor-contraste-fundo);
-  border-color: var(--cor-contraste-destaque);
+.alto-contraste .btn-opcao,
+.alto-contraste .formulario-contato button,
+.alto-contraste #simular,
+.alto-contraste main .mt-10 a,
+.alto-contraste .btn-acessibilidade,
+.alto-contraste a.btn.btn-success {
+  background-color: var(--cor-contraste-destaque) !important;
+  color: var(--cor-contraste-fundo) !important;
+  border: 1px solid var(--cor-contraste-destaque) !important;
 }
 
-.alto-contraste .btn-acessibilidade {
-  background-color: var(--cor-contraste-destaque);
-  color: var(--cor-contraste-fundo);
+
+.alto-contraste .btn-acessibilidade:hover,
+.alto-contraste .btn-opcao:hover,
+.alto-contraste .formulario-contato button:hover,
+.alto-contraste #simular:hover,
+.alto-contraste main .mt-10 a:hover,
+.alto-contraste a.btn.btn-success:hover {
+  background-color: var(--cor-contraste-fundo) !important;
+  color: var(--cor-contraste-branco) !important;
+  border: 1px solid var(--cor-contraste-branco) !important;
 }
 
-.alto-contraste .btn-opcao:hover {
-  background-color: var(--cor-contraste-fundo);
+
+.alto-contraste main {
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+
+.alto-contraste main section {
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
   color: var(--cor-contraste-branco);
 }
 
+
 .alto-contraste .caixa-conteudo,
-.alto-contraste .caixa-sabores {
+.alto-contraste .caixa-sabores,
+.alto-contraste .formulario-contato {
   background-color: var(--cor-fundo-escuro);
   color: var(--cor-contraste-destaque);
   border: 1px solid var(--cor-contraste-borda);
+  box-shadow: var(--sombra-media);
 }
+
+
 
 .alto-contraste .titulo-conteudo,
 .alto-contraste .titulo-sabores {
@@ -162,11 +190,14 @@
 }
 
 .alto-contraste .secao-contato {
-  background-color: var(--cor-contraste-fundo);
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
 }
 
 .alto-contraste .formulario-contato {
-  background: var(--cor-fundo-escuro);
+  border: none;
+
 }
 
 .alto-contraste .formulario-contato input,
@@ -176,36 +207,10 @@
   color: var(--cor-contraste-branco);
 }
 
-.alto-contraste .formulario-contato button {
-  background-color: var(--cor-contraste-fundo);
-  color: var(--cor-contraste-branco);
-  border: 1px solid var(--cor-contraste-borda);
-}
-
-.alto-contraste .formulario-contato button:hover {
-  background-color: var(--cor-contraste-destaque);
-  color: var(--cor-contraste-fundo);
-}
-
-.alto-contraste .rodape {
-  background-color: var(--cor-contraste-fundo);
-  color: var(--cor-contraste-branco);
-}
 
 .alto-contraste .contador-de-tempo {
   background-color: var(--cor-fundo-escuro);
   border: 1px solid var(--cor-contraste-borda);
-}
-
-.alto-contraste #simular {
-  background-color: var(--cor-contraste-fundo);
-  color: var(--cor-contraste-branco);
-  border: 1px solid var(--cor-contraste-borda);
-}
-
-.alto-contraste #simular:hover {
-  background-color: var(--cor-contraste-destaque);
-  color: var(--cor-contraste-fundo);
 }
 
 .alto-contraste .contador-de-tempo h2,
@@ -217,7 +222,113 @@
 }
 
 .alto-contraste .lista-regras li:hover {
-  background-color: var(--cor-contraste-destaque); 
+  background-color: var(--cor-contraste-destaque);
   color: var(--cor-fundo-escuro);
 }
 
+/* Novos estilos de Alto Contraste para elementos específicos da pagina atribuicoes.html em virtude de usar tailwindcss */
+
+.alto-contraste a:hover,
+.alto-contraste a:focus {
+  color: var(--cor-contraste-branco);
+}
+
+.alto-contraste #navbar {
+  background-color: var(--cor-contraste-fundo);
+  color: var(--cor-contraste-destaque);
+  box-shadow: var(--sombra-media);
+  border-bottom: 1px solid var(--cor-contraste-destaque);
+}
+
+.alto-contraste #navbar a {
+  color: var(--cor-contraste-destaque);
+}
+
+.alto-contraste #navbar a:hover,
+.alto-contraste #navbar a:focus {
+  color: var(--cor-contraste-branco);
+  text-decoration: underline;
+}
+
+
+.alto-contraste #mobileMenu {
+  background-color: var(--cor-contraste-fundo);
+  color: var(--cor-contraste-destaque);
+  box-shadow: var(--sombra-media);
+}
+
+.alto-contraste #mobileMenu a {
+  color: var(--cor-contraste-destaque);
+}
+
+.alto-contraste #mobileMenu a:hover,
+.alto-contraste #mobileMenu a:focus {
+  color: var(--cor-contraste-branco);
+  text-decoration: underline;
+}
+
+.alto-contraste main h1 {
+  background-color: var(--cor-contraste-fundo);
+  color: var(--cor-contraste-destaque);
+  box-shadow: var(--sombra-media);
+  border: 1px solid var(--cor-contraste-destaque);
+}
+
+
+.alto-contraste footer,
+.alto-contraste .rodape {
+  background-color: var(--cor-contraste-fundo);
+
+  color: var(--cor-contraste-branco);
+
+  border-top-color: var(--cor-contraste-destaque);
+
+  box-shadow: var(--sombra-media);
+
+}
+
+.alto-contraste footer a,
+.alto-contraste .rodape a {
+  color: var(--cor-contraste-destaque);
+
+}
+
+.alto-contraste footer a:hover,
+.alto-contraste footer a:focus,
+.alto-contraste .rodape a:hover,
+.alto-contraste .rodape a:focus {
+  color: var(--cor-contraste-branco);
+
+  text-decoration: underline;
+}
+
+.alto-contraste footer p strong,
+.alto-contraste .rodape p strong {
+  color: var(--cor-contraste-destaque);
+
+}
+
+
+.alto-contraste .bg-\[var\(--cor-card-fundo\)\] {
+  background-color: var(--cor-contraste-fundo) !important;
+  border: 1px solid var(--cor-contraste-destaque) !important;
+  box-shadow: none !important;
+}
+
+.alto-contraste .bg-\[var\(--cor-card-fundo\)\] h2 {
+  color: var(--cor-contraste-destaque) !important;
+}
+
+.alto-contraste .bg-\[var\(--cor-card-fundo\)\] ul li,
+.alto-contraste .bg-\[var\(--cor-card-fundo\)\] p {
+  color: var(--cor-contraste-branco) !important;
+}
+
+.alto-contraste .bg-\[var\(--cor-card-fundo\)\] a {
+  color: var(--cor-contraste-destaque) !important;
+}
+
+.alto-contraste .bg-\[var\(--cor-card-fundo\)\] a:hover,
+.alto-contraste .bg-\[var\(--cor-card-fundo\)\] a:focus {
+  color: var(--cor-contraste-branco) !important;
+}

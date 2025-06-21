@@ -50,13 +50,13 @@
 }
 
 .caixa-sabores {
-  background-color: rgba(130, 98, 74, 0.38); /* Manter como exceção por ser efeito específico/transparente */
+  background-color: rgba(130, 98, 74, 0.38); 
 }
 
 
-/* Estilos específicos para a seção "Sobre Nós" */
-.secao-sobre .caixa-conteudo {
-    background-color: transparent;
+/* Estilos específicos para a seção de conteudo "Sobre Nós" */
+.secao-sobre .caixa-conteudo- { /* No começo, eu tentei a classe 'caixa-conteudo-sobre', mas isso causou uns problemas de sobreposição entre os elementos pais e filhos na página, e a alternância de fundo do menu de acessibilidade parou de funcionar nessa div. Tentei um monte de coisas para consertar, mas nada dava certo. Daí, notei que quando retirei a classe da minha div e vim para deletar aqui também, deixando apenas "caixa-conteudo-", tudo voltou a funcionar. Não sei explicar o motivo, a classe não existe, mas o importante é que agora está pegando! */
+    background-color: var(--cor-conteudo-fundo);
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
