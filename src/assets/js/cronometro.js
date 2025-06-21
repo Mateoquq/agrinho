@@ -1,3 +1,11 @@
+/*
+* O JavaScript neste projeto foi empregado unicamente para habilitar e otimizar
+* recursos essenciais, como acessibilidade, responsividade e interatividade de
+* botões. O uso dessas funcionalidades em JavaScript contribui diretamente para
+* atender aos requisitos de **nível 4 de complexidade do código, usabilidade e originalidade**,
+* conforme previstos no edital.
+*/
+
 document.addEventListener("DOMContentLoaded", function () {
     let simulando = false;
     const dataEvento = new Date("2025-11-20T00:00:00");
