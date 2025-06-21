@@ -52,3 +52,31 @@
 .caixa-sabores {
   background-color: rgba(130, 98, 74, 0.38); /* Manter como exceção por ser efeito específico/transparente */
 }
+
+
+/* Estilos específicos para a seção "Sobre Nós" */
+.secao-sobre .caixa-conteudo {
+    background-color: transparent;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.secao-sobre .texto-conteudo {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.secao-sobre .texto-conteudo iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    max-width: 1440px;
+    display: block;
+    margin: 0 auto;
+    border-radius: var(--border-radius);
+}
