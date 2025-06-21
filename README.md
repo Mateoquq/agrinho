@@ -8,7 +8,7 @@
 * **No seu computador:** É super fácil! Basta baixar (clonar) este repositório e abrir o arquivo `index.html` no seu navegador favorito! 😉
 
 ---
-![Banner principal do festival, mostrando a união campo e cidade](src/assets/images/banner1.jpeg)
+![Banner principal do festival, mostrando a união campo e cidade](src/assets/images/imagem-do-projeto.png)
 ## 🎯 Sobre o Projeto
 
 E aí, galera! Preparem-se para conhecer o projeto que fiz com muito carinho para o **Concurso Agrinho 2025**! O tema é **"Festejando Conexão Campo e Cidade"**, e minha ideia foi criar um site para um evento fictício: o "1º Festival Gastronômico Sabores do Campo na Cidade". Queremos mostrar como o campo e a cidade se conectam de forma incrível através da comida! 😋
