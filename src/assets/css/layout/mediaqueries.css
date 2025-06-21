@@ -203,7 +203,7 @@
   }
 
   .menu-acessibilidade {
-    top: calc(var(--espacamento-grande) * 12);
+    top: calc(var(--espacamento-grande) * 8);
     right: var(--espacamento-medio);
   }
 
