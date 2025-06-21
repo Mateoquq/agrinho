@@ -1,6 +1,7 @@
+/* importar todos os css*/
 @import url(../css/base/reset.css);
 @import url(../css/base/variaveis.css);
-@import url(../css/layout/keyframes.css);
+@import url(../css/utilitarios/acessibilidade.css);
 @import url(../css/layout/header.css);
 @import url(../css/layout/banner.css);
 @import url(../css/componentes/cronometro.css);
@@ -9,6 +10,10 @@
 @import url(../css/componentes/lista-regras.css);
 @import url(../css/componentes/contato.css);
 @import url(../css/layout/footer.css);
+@import url(../css/layout/mediaqueries.css);
+@import url(../css/layout/keyframes.css);
+
+
 
 html {
     scroll-behavior: smooth;

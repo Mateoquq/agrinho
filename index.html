@@ -45,10 +45,28 @@
         </nav>
     </header>
 
-    <!-- espaço para menu de acessibilidade -->
+ <!-- Menu de Acessibilidade Inspirado na trilha: https://cursos.alura.com.br/course/acessibilidade-web-melhorando-experiencia-usuario -->
 
-
-    <!-- fim do espaço para menu de acessibilidade -->
+    <div id="acessibilidade" class="menu-acessibilidade">
+        <button id="botao-acessibilidade" class="btn-acessibilidade" aria-label="Menu de acessibilidade"
+            aria-expanded="false">
+            <i class="bi bi-universal-access"></i>
+        </button>
+        <div id="opcoes-acessibilidade" class="opcoes-acessibilidade">
+            <button id="aumentar-fonte" class="btn-opcao" aria-label="Aumentar tamanho da fonte">
+                <i class="bi bi-zoom-in"></i> A+
+            </button>
+            <button id="diminuir-fonte" class="btn-opcao" aria-label="Diminuir tamanho da fonte">
+                <i class="bi bi-zoom-out"></i> A-
+            </button>
+            <button id="alterna-contraste" class="btn-opcao" aria-label="Alternar alto contraste">
+                <i class="bi bi-circle-half"></i> Contraste
+            </button>
+            <button id="reset-acessibilidade" class="btn-opcao" aria-label="Redefinir configurações">
+                <i class="bi bi-arrow-counterclockwise"></i> Resetar
+            </button>
+        </div>
+    </div>
 
 
     <section id="inicio" class="banner">
