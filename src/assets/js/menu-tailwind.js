@@ -23,7 +23,7 @@ if (mobileMenuButton && mobileMenu) {
             mobileMenu.classList.add("opacity-0", "-translate-y-2");
             setTimeout(() => {
                 mobileMenu.classList.add("hidden");
-            }, 300); 
+            }, 300);
         }
     }
 

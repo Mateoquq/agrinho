@@ -9,7 +9,7 @@
 }
 
 .caixa-conteudo {
-  background-color: var(--cor-conteudo-fundo); 
+  background-color: var(--cor-conteudo-fundo);
   border-radius: var(--border-radius);
   box-shadow: var(--caixa-shadow);
   padding: 80px 30px;
@@ -50,33 +50,34 @@
 }
 
 .caixa-sabores {
-  background-color: rgba(130, 98, 74, 0.38); 
+  background-color: rgba(130, 98, 74, 0.38);
 }
 
 
 /* Estilos específicos para a seção de conteudo "Sobre Nós" */
-.secao-sobre .caixa-conteudo- { /* No começo, eu tentei a classe 'caixa-conteudo-sobre', mas isso causou uns problemas de sobreposição entre os elementos pais e filhos na página, e a alternância de fundo do menu de acessibilidade parou de funcionar nessa div. Tentei um monte de coisas para consertar, mas nada dava certo. Daí, notei que quando retirei a classe da minha div e vim para deletar aqui também, deixando apenas "caixa-conteudo-", tudo voltou a funcionar. Não sei explicar o motivo, a classe não existe, mas o importante é que agora está pegando! */
-    background-color: var(--cor-conteudo-fundo);
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
+.secao-sobre .caixa-conteudo- {
+  /* No começo, eu tentei a classe 'caixa-conteudo-sobre', mas isso causou uns problemas de sobreposição entre os elementos pais e filhos na página, e a alternância de fundo do menu de acessibilidade parou de funcionar nessa div. Tentei um monte de coisas para consertar, mas nada dava certo. Daí, notei que quando retirei a classe da minha div e vim para deletar aqui também, deixando apenas "caixa-conteudo-", tudo voltou a funcionar. Não sei explicar o motivo, a classe não existe, mas o importante é que agora está pegando! */
+  background-color: var(--cor-conteudo-fundo);
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
 
 .secao-sobre .texto-conteudo {
-    margin-top: 50px;
-    width: 100%;
+  margin-top: 50px;
+  width: 100%;
 }
 
 .secao-sobre .texto-conteudo iframe {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 16 / 9;
-    max-width: 1440px;
-    display: block;
-    margin: 0 auto;
-    border-radius: var(--border-radius);
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  max-width: 1440px;
+  display: block;
+  margin: 0 auto;
+  border-radius: var(--border-radius);
 }

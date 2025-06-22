@@ -4,6 +4,11 @@
   margin: 0;
 }
 
+.lista-regras,
+.texto-conteudo {
+  font-size: 2rem;
+}
+
 .lista-regras li {
   border-radius: var(--border-radius-medio);
   padding: var(--espacamento-medio) var(--espacamento-grande);

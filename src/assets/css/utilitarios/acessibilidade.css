@@ -75,7 +75,8 @@
 /* Estilos para o modo Alto Contraste */
 
 .alto-contraste {
-  background-color: var(--cor-contraste-fundo) !important; /* !important necessario para mudar fundo da pagina atribuicoes.html */
+  background-color: var(--cor-contraste-fundo) !important;
+  /* !important necessario para mudar fundo da pagina atribuicoes.html */
   color: var(--cor-contraste-branco);
   background-image: none;
 }

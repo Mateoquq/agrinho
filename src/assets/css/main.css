@@ -22,15 +22,15 @@ html {
 }
 
 main {
-    padding-top: 80px; 
+    padding-top: 80px;
 }
 
 body {
-    background-image: url('../images/fundo1.png'); 
-    background-size: 100%;  
-    background-repeat: repeat-y; 
-    background-attachment: fixed; 
-    background-position: top center; 
+    background-image: url('../images/fundo1.png');
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-position: top center;
     margin: 0;
     padding: 0;
 }

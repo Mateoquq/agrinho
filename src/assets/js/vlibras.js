@@ -7,7 +7,7 @@
 */
 
 // Ativação do VLibras - Governo Federal
-(function() {
+(function () {
   const vlibrasDiv = document.createElement("div");
   vlibrasDiv.setAttribute("vw", "");
   vlibrasDiv.classList.add("enabled");
