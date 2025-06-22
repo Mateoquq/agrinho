@@ -1,17 +1,17 @@
-# 🌾 Projeto Agrinho 2025 - **"Festejando Conexão Campo e Cidade"** 🏙️
+# 𖡼𖤣𖥧𖡼𓋼𖤣𖥧𓋼𓍊 Projeto Agrinho 2025 - **"Festejando Conexão Campo e Cidade"** 🏛️🏙️🌇🌆🚗
 
-## ▶️ Ver / Como Rodar o Projeto
+## 🌐 Ver / Como Rodar o Projeto
 
 * **No seu navegador (online):**
     * [No GitHub Pages](https://mateoquq.github.io/agrinho-2025/)
     * [No Vercel](https://agrinho-2025-puce.vercel.app/)
-* **No seu computador:** É super fácil! Basta baixar (clonar) este repositório e abrir o arquivo `index.html` no seu navegador favorito! 😉
+* **No seu computador:** 📂 É super fácil! Basta baixar este repositório em seu computador, extrarir os arquivos e abrir o arquivo `index.html` no seu navegador favorito! 
 
 ---
 ![Banner principal do festival, mostrando a união campo e cidade](src/assets/images/imagem-do-projeto.png)
-## 🎯 Sobre o Projeto
+## 📰 Sobre o Projeto
 
-E aí, galera! Preparem-se para conhecer o projeto que fiz com muito carinho para o **Concurso Agrinho 2025**! O tema é **"Festejando Conexão Campo e Cidade"**, e minha ideia foi criar um site para um evento fictício: o "1º Festival Gastronômico Sabores do Campo na Cidade". Queremos mostrar como o campo e a cidade se conectam de forma incrível através da comida! 😋
+E aí, galera! Preparem-se para conhecer o projeto que fiz com muito carinho para o **Concurso Agrinho 2025**! O tema é **"Festejando Conexão Campo e Cidade"**, e minha ideia foi criar um site para um evento fictício: o "1º Festival Gastronômico Sabores do Campo na Cidade". Queremos mostrar como o campo e a cidade se conectam de forma incrível através da comida! 🍽️
 
 No site, vocês encontrarão todos os detalhes que imaginei para o festival: nossa proposta, pratos típicos paranaenses deliciosos, chefs convidados, local do evento (com mapa!), formas de contato e as regras para que todos se divirtam sem complicação.
 
@@ -21,7 +21,7 @@ O JavaScript foi essencial no projeto para: melhorar a acessibilidade (ajuste de
 
 ---
 
-## ✨ Pontos de Destaque
+## 🥇 Pontos de Destaque
 
 * **Navegação Fácil:** Um menu superior permite acesso rápido a todas as seções do site (`Início`, `Informações`, `Contato`).
 * **Menu de Acessibilidade:** Pensando em todos, inclui opções para aumentar/diminuir o tamanho da fonte e ajustar o contraste, inspiradas nas melhores práticas de acessibilidade web.
@@ -56,7 +56,7 @@ O JavaScript foi essencial no projeto para: melhorar a acessibilidade (ajuste de
 
 ---
 
-🖼️ **Imagens:**
+📸 **Imagens:**
 
 Como o Markdown ignora `target="_blank"`, use o clique com a scroll do mouse para acessar os links em uma nova guia, ou clique com o botão direito e escolha "Abrir link em nova guia".
 
@@ -80,3 +80,8 @@ Como o Markdown ignora `target="_blank"`, use o clique com a scroll do mouse par
 | Criação própria: usando Adobe Firefly - Imagem do prato "Vaca Atolada".                                                                                                                                                                                                         | `vaca-atolada.jpg`                                        | CHIARA VIEIRA DOS SANTOS | CC BY-NC (sem fins comerciais) |
 
 ---
+📸 **video:**
+Criação própria. Upload no [Youtube](https://youtu.be/CPUHFiL5b-0) para incorporar o inframe gerado em nosso index.html.
+
+---
+
