@@ -61,8 +61,6 @@ O JavaScript foi essencial no projeto para: melhorar a acessibilidade (ajuste de
 
 📸 **Imagens:**
 
-Como o Markdown ignora `target="_blank"`, use o clique com a scroll do mouse para acessar os links em uma nova guia, ou clique com o botão direito e escolha "Abrir link em nova guia".
-
 | Nome/Descrição                                                                                                                                                                                                                                           | Arquivo no Projeto                                        | Fonte / Autor            | Licença                                                                                                                                  |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------- | :----------------------- | :--------------------------------------------------------------------------------------------------------------------------------------- |
 | Criação própria: usando Ibis Paint - Banner principal do festival, com a ideia de conexão campo-cidade.                                                                                                                                                                      | `banner1.jpeg`                                            | CHIARA VIEIRA DOS SANTOS | Creative Commons (CC) |
