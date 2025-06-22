@@ -82,7 +82,7 @@ O JavaScript foi essencial no projeto para: melhorar a acessibilidade (ajuste de
 
 ---
 📸 **video:**
-Criação própria. Upload no [Youtube](https://youtu.be/CPUHFiL5b-0) para incorporar o inframe gerado em nosso index.html.
+Criação própria. Upload no [Youtube](https://youtu.be/CPUHFiL5b-0) para incorporar o inframe gerado no index.html.
 
 ---
 
