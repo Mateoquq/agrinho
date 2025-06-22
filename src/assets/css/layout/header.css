@@ -12,7 +12,7 @@
 }
 
 .logo {
-  max-height: 150%; /* manter para prevenir erro de renderização de imagem */
+  max-height: 125%; /* manter para prevenir erro de renderização de imagem */
   width: auto;
   object-fit: contain;
   display: block;
