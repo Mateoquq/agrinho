@@ -49,8 +49,11 @@ O JavaScript foi essencial no projeto para: melhorar a acessibilidade (ajuste de
 * **[Font Awesome](https://fontawesome.com/):** Mais ícones para o cabeçalho e rodapé, adicionando profissionalismo e estilo.
 * **[Tailwind CSS](https://tailwindcss.com/):** Utilizado na página de atribuições para demonstrar versatilidade em diferentes abordagens de estilo.
 
-### Ferramentas de Design
+### Ferramentas de Design e criação
 * **[Figma](https://www.figma.com/design/ONOYHXHdLYrN7vNat5Uqd2/Untitled?node-id=0-1&p=f):** Aqui você encontra o projeto e a prototipagem do design do site, onde as ideias ganharam forma antes da programação!
+* **[Ibis Paint](https://ibispaint.com/?lang=pt):** Criação de imagens
+* **[Adobe Firefly](https://firefly.adobe.com/?media=featured):** Criação de imagens
+* **[Gemini](https://gemini.google.com/?hl=pt-BR):** Criação de imagens
 
 ---
 
